@@ -5,7 +5,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/panditharshpandeyji",
   resume:
-    "https://docs.google.com/document/d/1iUj5-vKrQF5nZUw3fgpy3PwBh4LltLxNKN3AZftqkTY/edithttps://docs.google.com/document/d/1iUj5-vKrQF5nZUw3fgpy3PwBh4LltLxNKN3AZftqkTY/edit",
+    "https://www.canva.com/design/DAGYiv9QUg4/uN0faT3_NHcz4_shut1iOQ/view?utm_content=DAGYiv9QUg4&utm_campaign=designshare&utm_medium=link&utm_source=editor",
 };
 
 export const skills = [
@@ -16,6 +16,11 @@ export const skills = [
         name: "React Js",
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+      },
+      {
+        name: "React Native",
+        image:
+          "https://everyday.codes/wp-content/uploads/2019/06/react-native-1024x631-1024x631.png",
       },
       {
         name: "HTML",
@@ -45,7 +50,17 @@ export const skills = [
         image:
           "https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/8d565/express-js.webp",
       },
+      {
+        name: "ASP.net core",
+        image:
+          "https://media.licdn.com/dms/image/D4D12AQFrhUJpZHaEeA/article-cover_image-shrink_600_2000/0/1657257836406?e=2147483647&v=beta&t=2F2wKIH61gH_tNJl4lo3Dpw2fmoq2apAwYyirwQ6Lb0",
+      },
 
+      {
+        name: "C#",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtjfYoXfzK98RY1lQdXH68EyF1AD7HC36MBg&s",
+      },
       {
         name: "Socket io",
         image:
@@ -55,11 +70,6 @@ export const skills = [
         name: "Java",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-      },
-      {
-        name: "Python",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
       },
     ],
   },
@@ -113,11 +123,21 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "https://i.pinimg.com/236x/e3/15/a2/e315a2e85ad449df0e665693e0f1b159.jpg",
+    role: "Full Stack Developer Intern",
+    company: "Zircon Infotech",
+    date: "arp 2024 - sep 2024",
+    desc: "During my Full Stack development internship at Zircon Infotech (Arp-Sep 2024), During my internship as a Full Stack Developer at Zincon, I worked on several dynamic web applications utilizing ASP.NET Core. A key project I developed was EM Account, a robust and feature-rich application designed to handle complex account management tasks dynamically.",
+    skills: ["React Native", "C#", "SQL", "ASP.NET"],
+    doc: "",
+  },
+  {
+    id: 1,
     img: "https://media.licdn.com/dms/image/D4D05AQHl12G1zFDm9Q/videocover-low/0/1694101221841?e=2147483647&v=beta&t=Vh9jK13K3CCHSlbPPrbuzJUD6fmQklh85dzmx3SLulE",
     role: "Web Developer Intern",
     company: "Bharat Intern",
     date: "sep 2023 - oct 2023",
-    desc: "During my web development internship at Bharat Intern (NovemberDecember 2023), I developed dynamic web applications using HTML, CSS, JavaScript, and React, and collaborated on team projects following agile methodologies. I integrated backend services with Node.js, optimized code for performance, and resolved bugs to ensure high-quality outputs.",
+    desc: "During my web development internship at Bharat Intern (September-Octomber 2023), I developed dynamic web applications using HTML, CSS, JavaScript, and React, and collaborated on team projects following agile methodologies. I integrated backend services with Node.js, optimized code for performance, and resolved bugs to ensure high-quality outputs.",
     skills: ["React js", "JavaScript", "Node Js", "Express js"],
     doc: "",
   },
@@ -126,6 +146,14 @@ export const experiences = [
 export const education = [
   {
     id: 0,
+    img: "",
+    school: "Chameli Devi Groups of institute, Indore",
+    date: "Oct 2024 - Sep 2026",
+    grade: "",
+    desc: "I am currently pursuing a Master of Computer Applications (MCA) at Chameli Devi Group of Institutes, where I am in my first semester. This program is enhancing my foundational knowledge in computer science and programming while equipping me with advanced skills in software development, system design, and problem-solving.",
+  },
+  {
+    id: 2,
     img: "",
     school: "Shri Vaishav Institute Of Management, Indore",
     date: "Oct 2021 - Sep 2024",
