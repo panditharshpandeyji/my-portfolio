@@ -47,11 +47,7 @@ const HeroSection = () => {
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>
             <ResumeButton>
-              <a
-                href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:10202c24-d45e-4b86-bbcb-215db9b17371"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href={Bio.resume} target="_blank" rel="noopener noreferrer">
                 Check Resume
               </a>
             </ResumeButton>
